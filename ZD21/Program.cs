@@ -5,10 +5,12 @@
 // A (3,6,8); B (2,1,-7), -> 15.84
 // A (7,-5, 0); B (1,-1,9) -> 11.53  
 
-Console.WriteLine("Введите размерность пространства: ");
-int n = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите размерность пространства: ");
+// int n = Convert.ToInt32(Console.ReadLine());
 int i = 0;
-// int j=0; 
+
+
+int n=2;
 int[] arrayA = new int[n]; //массив с точки А
 int[] arrayB = new int[n]; //массив с точки B
 
