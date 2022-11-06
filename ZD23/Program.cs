@@ -5,3 +5,12 @@
 
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
+
+Console.WriteLine("Введите число n: ");
+int x= Convert.ToInt32(Console.ReadLine());
+int b;
+for (int i=1; i<(x+1); i++)
+{
+    b=i*i*i;  
+    Console.Write($"{b} ");
+}
